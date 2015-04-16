@@ -1,8 +1,12 @@
 # Big Brother
 
-type: school project
+type:
 
-technologies: MongoDB
+-school project
+
+technologies:
+
+-MongoDB
 
 desciption:
 
