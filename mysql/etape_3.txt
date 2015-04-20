@@ -1,0 +1,2 @@
+USE e_canette;
+SELECT Produits.ID, Produits.Libelle, Produits.Description, Produits.Prix_achat, Produits.prix_vente, Produits.Nombres_produit, Produits.Date_creation, Produits.Date_modification, Categories.ID, Categories.Libelle, Categories.Description, Categories.Date_creation, Categories.Date_modification FROM Produits, Categories;

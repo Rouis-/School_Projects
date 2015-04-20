@@ -1,0 +1,8 @@
+Produit avec categorie
+
+SELECT Libelle FROM Produits LEFT JOIN Categorie_Produit ON Produits.ID = Categorie_Produit.ID_Produit WHERE ID_Categorie IS NOT NULL;
+
+
+Produit sans categorie
+
+SELECT Libelle FROM Produits LEFT JOIN Categorie_Produit ON Produits.ID = Categorie_Produit.ID_Produit WHERE ID_Categorie IS  NULL;

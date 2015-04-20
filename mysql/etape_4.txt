@@ -1,0 +1,9 @@
+USE e_canette;
+
+Ordre Decroissant :
+
+SELECT Nom,  Prenom, Date_de_naissance FROM Utilisateurs ORDER BY Date_de_naissance DESC;
+
+Ordre Croissant :
+
+SELECT Nom,  Prenom, Date_de_naissance FROM Utilisateurs ORDER BY Nom ASC;

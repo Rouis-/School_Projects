@@ -1,0 +1,2 @@
+USE e_canette;
+SELECT  Libelle FROM Produits where id in (1, 2, 3, 4, 5);

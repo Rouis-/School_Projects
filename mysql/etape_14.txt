@@ -1,0 +1,1 @@
+select *, Role.Libelle  FROM Utilisateurs,Role WHERE Utilisateurs.ID = Role.ID;

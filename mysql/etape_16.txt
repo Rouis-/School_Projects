@@ -1,0 +1,1 @@
+select Produits.Description, Categories.Libelle FROM Produits, Categories WHERE Categories.ID IS NOT NULL;

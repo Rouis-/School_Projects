@@ -1,0 +1,2 @@
+USE e_canette;
+select libelle FROM Produits WHERE Prix_vente > '0.50';

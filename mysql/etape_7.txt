@@ -1,0 +1,2 @@
+USE e_canette;
+SELECT sum(prix_vente) AS somme FROM Produits;

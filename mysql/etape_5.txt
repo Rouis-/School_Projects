@@ -1,0 +1,3 @@
+USE e_canette;
+
+SELECT Libelle FROM Produits LIMIT 5;

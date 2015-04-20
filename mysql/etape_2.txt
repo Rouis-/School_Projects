@@ -1,0 +1,16 @@
+
+Les donnees sont creees, youpi !
+
+pour selectionner les donnees on utilise cett commande :
+
+Pour voir toutes les donnees de Utilisateurs: 
+
+SELECT * FROM Utilisateurs;
+
+Pour voir uniquement certaines colonnes de la table Utilisateurs :
+
+SELECT ID, Nom, Prenom, Date_de_naissance, Ville, Adresse, Code_postal, Pays, Sexe, Role, Date_creation, Date_modification FROM Utilisateurs; 
+
+Pour voir une seule colonne :
+
+SELECT (ID) FROM Utilisateurs;

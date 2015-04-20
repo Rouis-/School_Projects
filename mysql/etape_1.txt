@@ -1,0 +1,86 @@
+
+Une fois les tables creees, ils faut y ajouter des donnees.
+
+
+Utilisateurs
+
+
+INSERT INTO Utilisateurs ( Nom, Prenom, Date_de_naissance, Ville, Adresse, Code_Postal, Pays, Sexe, Role, Date_creation, Date_modification ) VALUE ( 'louis', 'PAKEL', 1996-06-15, 'Ivry-sur-Seine', '50 rue derevan', 92130, 'France', 1, 1, '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Utilisateurs ( Nom, Prenom, Date_de_naissance, Ville, Adresse, Code_Postal, Pays, Sexe, Role, Date_creation, Date_modification ) VALUE ( 'Paul', 'TOSHIRO', 1994-04-01, 'Montpelier', '31bis rue de la pastorale', 74100, 'France', 1, 1,'2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Utilisateurs ( Nom, Prenom, Date_de_naissance, Ville, Adresse, Code_Postal, Pays, Sexe, Role, Date_creation, Date_modification ) VALUE ( 'Kevin',  'HIRUMA', 1994-01-10,  'Ivry-sur-Seine', '50 rue derevan', '50 rue derevan', 92130, 'France', 1, 1, '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Utilisateurs ( Nom, Prenom, Date_de_naissance, Ville, Adresse, Code_Postal, Pays, Sexe, Role, Date_creation, Date_modification ) VALUE ( 'Quentin',  'AVEIRO', 1998-03-17, 'Issy-Les-Moulineaux', '23 rue louis bertrand', 94200, 'France', 1, 1, '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Utilisateurs ( Nom, Prenom, Date_de_naissance, Ville, Adresse, Code_Postal, Pays, Sexe, Role, Date_creation, Date_modification ) VALUE ( 'Quentin',  'Max', 1998-03-17, 'Ivry-sur-Seine', '50 rue derevan', '50 rue derevan', 92130, 'France', 1, 1, '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Utilisateurs ( Nom, Prenom, Date_de_naissance, Ville, Adresse, Code_Postal, Pays, Sexe, Role, Date_creation, Date_modification ) VALUE ( 'Louis',  'ARCHAONS', 1996-06-15, 'MontCul', '31bis rue de montcul', 88000, 'France', 1, 1, '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Utilisateurs ( Nom, Prenom, Date_de_naissance, Ville, Adresse, Code_Postal, Pays, Sexe, Role, Date_creation, Date_modification ) VALUE ( 'Sebastien',  'SK4RS', 1996-06-15, 'Ivry-sur-Seine', '50 rue derevan', 92130, 'France', 1, 1, '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Utilisateurs ( Nom, Prenom, Date_de_naissance, Ville, Adresse, Code_Postal, Pays, Sexe, Role, Date_creation, Date_modification ) VALUE ( 'Eva',  'EVAWEEZY', 1996-06-15, 'Paris', '3 rue de la gare', 90000, 'France', 1, 1, '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Utilisateurs ( Nom, Prenom, Date_de_naissance, Ville, Adresse, Code_Postal, Pays, Sexe, Role, Date_creation, Date_modification ) VALUE ( 'Johnatan',  'HARDGAMER', 1998-03-17, 'Ivry-sur-Seine', '50 rue derevan', 'France', 1, 1, '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Utilisateurs ( Nom, Prenom, Date_de_naissance, Ville, Adresse, Code_Postal, Pays, Sexe, Role, Date_creation, Date_modification ) VALUE ( 'Adam',  'OUSSEKIN', 1996-06-15, 'Ivry-sur-Seine', '25 rue de la crete', 94200, 'France', 1, 1, '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+
+
+Role
+
+
+INSERT INTO Role ( Libelle, Description, Date_creation, Date_Modification) VALUE ( 'Moderateur', 'Il anime, repare, conseil et aide les utilisateurs', '2010-09-13 15:02:00', '2011-09-13 15:02:00' );
+INSERT INTO Role ( Libelle, Description, Date_creation, Date_Modification) VALUE ( 'Utilisateur', 'NULL', '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Role ( Libelle, Description, Date_creation, Date_Modification) VALUE ( 'Developpeur Objet', 'NULL', '2014-09-13 15:02:00', '2014-09-13 15:02:00');
+INSERT INTO Role ( Libelle, Description, Date_creation, Date_Modification) VALUE ( 'Web Master', 'Met a jour le site et renouvelle le contenu', '1998-09-13 15:02:00', '2014-09-13 15:02:00');
+
+
+Produits
+
+INSERT INTO Produits ( Libelle, Description, Prix_achat, Prix_vente, Nombres_produit, Date_creation, Date_modification) VALUE ( 'coca-cola', 'soda', 1, 1.25, 25, '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Produits ( Libelle, Description, Prix_achat, Prix_vente, Nombres_produit, Date_creation, Date_modification) VALUE ( 'Ice-Tea', 'soda', 1, 1.25, 25, '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Produits ( Libelle, Description, Prix_achat, Prix_vente, Nombres_produit, Date_creation, Date_modification) VALUE ( 'Orangina', 'soda', 1, 1.50, 25, '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Produits ( Libelle, Description, Prix_achat, Prix_vente, Nombres_produit, Date_creation, Date_modification) VALUE ( 'Fanta', 'soda', 1, 1.25, 25, '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Produits ( Libelle, Description, Prix_achat, Prix_vente, Nombres_produit, Date_creation, Date_modification) VALUE ( 'DR Pepper', 'soda', 1, 1.25, 25, '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Produits ( Libelle, Description, Prix_achat, Prix_vente, Nombres_produit, Date_creation, Date_modification) VALUE ( 'Seven Up', 'soda', 1.10, 1.50, 25, '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Produits ( Libelle, Description, Prix_achat, Prix_vente, Nombres_produit, Date_creation, Date_modification) VALUE ( 'Oasis', 'soda', 0.75, 1, 25, '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Produits ( Libelle, Description, Prix_achat, Prix_vente, Nombres_produit, Date_creation, Date_modification) VALUE ( 'Pulco', 'soda', 0.75, 1, 25, '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Produits ( Libelle, Description, Prix_achat, Prix_vente, Nombres_produit, Date_creation, Date_modification) VALUE ( 'kinder bueno', 'barre chocolater', 0.75, 1, 30, '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Produits ( Libelle, Description, Prix_achat, Prix_vente, Nombres_produit, Date_creation, Date_modification) VALUE ( 'kit kat', 'barre chocolater', 0.75, 1, 10, '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Produits ( Libelle, Description, Prix_achat, Prix_vente, Nombres_produit, Date_creation, Date_modification) VALUE ( 'Galette', 'patisserie', 0.75, 1, 10, '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Produits ( Libelle, Description, Prix_achat, Prix_vente, Nombres_produit, Date_creation, Date_modification) VALUE ( 'Gauffre', 'patisserie', 0.75, 1, 10, '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Produits ( Libelle, Description, Prix_achat, Prix_vente, Nombres_produit, Date_creation, Date_modification) VALUE ( 'Crunch', 'barre chocolater', 0.75, 1, 15, '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Produits ( Libelle, Description, Prix_achat, Prix_vente, Nombres_produit, Date_creation, Date_modification) VALUE ( 'Packet de lutti', 'sucrerie', 0.5, 1, 7, '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Produits ( Libelle, Description, Prix_achat, Prix_vente, Nombres_produit, Date_creation, Date_modification) VALUE ( 'Packet de M&M', 'chocolaterie', 0.5, 1, 5, '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+
+
+Produit_Utilisateur 
+
+
+INSERT INTO Produit_Utilisateur (ID_Produit, ID_Utilisateur) VALUE (1,1);
+INSERT INTO Produit_Utilisateur (ID_Produit, ID_Utilisateur) VALUE (2,2);
+INSERT INTO Produit_Utilisateur (ID_Produit, ID_Utilisateur) VALUE (3,3);
+INSERT INTO Produit_Utilisateur (ID_Produit, ID_Utilisateur) VALUE (4,4);
+INSERT INTO Produit_Utilisateur (ID_Produit, ID_Utilisateur) VALUE (5,1);
+INSERT INTO Produit_Utilisateur (ID_Produit, ID_Utilisateur) VALUE (6,1);
+INSERT INTO Produit_Utilisateur (ID_Produit, ID_Utilisateur) VALUE (7,1);
+INSERT INTO Produit_Utilisateur (ID_Produit, ID_Utilisateur) VALUE (8,2);
+INSERT INTO Produit_Utilisateur (ID_Produit, ID_Utilisateur) VALUE (9,1);
+INSERT INTO Produit_Utilisateur (ID_Produit, ID_Utilisateur) VALUE (10,1);
+
+Categories
+
+INSERT INTO Categories ( Libelle, Description, Date_creation, Date_modification) VALUE ( 'Boisson', 'soda en tout genre', '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Categories ( Libelle, Description, Date_creation, Date_modification) VALUE ( 'Barre chocolater', 'kitkat , crunch, kinder bueno, M&M', '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+INSERT INTO Categories ( Libelle, Description, Date_creation, Date_modification) VALUE ( 'Patisserie et bonbon', 'bonbon, gauffre, galette', '2010-09-13 15:02:00', '2010-09-13 15:02:00');
+
+
+Categories_Produit
+
+
+INSERT INTO Categorie_Produit (ID_Categorie, ID_Produit) VALUE (1,1);
+INSERT INTO Categorie_Produit (ID_Categorie, ID_Produit) VALUE (1,2);
+INSERT INTO Categorie_Produit (ID_Categorie, ID_Produit) VALUE (1,3);
+INSERT INTO Categorie_Produit (ID_Categorie, ID_Produit) VALUE (1,4);
+INSERT INTO Categorie_Produit (ID_Categorie, ID_Produit) VALUE (1,5);
+INSERT INTO Categorie_Produit (ID_Categorie, ID_Produit) VALUE (1,6);
+INSERT INTO Categorie_Produit (ID_Categorie, ID_Produit) VALUE (1,7);
+INSERT INTO Categorie_Produit (ID_Categorie, ID_Produit) VALUE (1,8);
+INSERT INTO Categorie_Produit (ID_Categorie, ID_Produit) VALUE (2,9);
+INSERT INTO Categorie_Produit (ID_Categorie, ID_Produit) VALUE (2,10);
+INSERT INTO Categorie_Produit (ID_Categorie, ID_Produit) VALUE (2,13);
+INSERT INTO Categorie_Produit (ID_Categorie, ID_Produit) VALUE (2,15);
+INSERT INTO Categorie_Produit (ID_Categorie, ID_Produit) VALUE (3,11);
+INSERT INTO Categorie_Produit (ID_Categorie, ID_Produit) VALUE (3,12);
+INSERT INTO Categorie_Produit (ID_Categorie, ID_Produit) VALUE (3,14);

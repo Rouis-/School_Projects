@@ -1,0 +1,2 @@
+USE e_canette;
+select Produits.Libelle, Categories.Libelle FROM Produits, Categories WHERE Categories.ID IS NOT NULL;
